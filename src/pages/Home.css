@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Protest+Revolution&family=Stylish&display=swap');
+
+.home-page header{
+
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../utils/img/home.jpg);
+    height: 50vh;
+
+}
+.welcome{
+    font-family: "Stylish", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+}
+
+.hungry{
+    font-family: "Protest Revolution", sans-serif;
+}
+
+header{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header h1{
+    font-size: 5rem;
+}
+
+.home-page header h1,
+.home-page header h2{
+    text-shadow: 2px 2px 8px #f72020;
+    color: rgb(248, 245, 245);
+}
+
+.menu-section{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../utils/img/bg.coffee.png);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    border-style: solid;
+    border-width: 5px;
+}
+
+@media only screen and (max-width:768px){
+    header h1{
+        font-size: 4rem;
+        
+    }
+    
+    
+}
+
+@media only screen and (max-width:576px){
+    header h1{
+        font-size: 3rem;
+        
+    }
+
+}

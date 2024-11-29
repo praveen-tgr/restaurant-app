@@ -1,0 +1,265 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* Navbar background and font styling */
+.custom-navbar {
+  background-color: #f74756; /* Dark navy background */
+  color: #ecf0f1;}
+/* Brand styling */
+.brand-name {
+  
+  font-family: 'Poppins', sans-serif; /* Stylish font */
+  font-size: 1.5rem;
+  
+  color: rgb(255, 223, 223);
+}
+
+/* Round logo styling */
+.logo-round {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e74c3c; /* Match brand color */
+}
+
+
+/* Navbar links */
+.custom-nav-link {
+  margin: 0 15px;
+  color: #ecf0f1 !important; /* Force light text color */
+  font-family: 'Roboto', sans-serif; /* Modern, clean font */
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover state */
+.custom-nav-link:hover {
+  color: #e74c3c !important; /* Red color on hover */
+}
+
+/* Active state */
+.custom-nav-link.active {
+  color: #e74c3c !important; /* Red color for active links */
+  font-weight: 700;
+}
+
+/* Ensure the navbar links are properly styled across all states */
+.navbar-nav .nav-link {
+  color: inherit !important; /* Inherit from custom styles */
+}
+
+
+
+/* Navbar collapse (basic-navbar-nav) */
+#basic-navbar-nav {
+  background-color:#f74756;/* Ensure consistent background with navbar */
+  color: #ecf0f1; /* Ensure text color matches navbar */
+  transition: all 0.3s ease; /* Smooth opening/closing animation */
+}
+
+
+
+#basic-navbar-nav .nav-link:hover {
+  color: #383838 !important; /* Hover color */
+}
+#basic-navbar-nav .active{
+  color:inherit;  margin: 0 15px;
+  color: #ecf0f1 !important; /* Force light text color */
+  font-family: 'Roboto', sans-serif; /* Modern, clean font */
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #basic-navbar-nav {
+    padding: 10px 0;
+  }
+
+  #basic-navbar-nav .nav-link {
+    font-size: 0.9rem; /* Slightly smaller font for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  /* Navbar container padding for mobile */
+  #basic-navbar-nav {
+    padding: 8px 0;
+  }
+
+  .navbar {
+    flex-wrap: nowrap; /* Prevent navbar from wrapping */
+  }
+
+  .navbar-toggler {
+    margin-left: auto;
+  }
+
+  .navbar-brand {
+    font-size: 1rem; /* Adjust brand size for mobile */
+  }
+
+
+  /* Smaller font size for links on mobile */
+  #basic-navbar-nav .nav-link {
+    font-size: 0.8rem;
+    padding: 0.5rem 0.8rem; /* Adjust padding for better spacing */
+    text-align:center; /* Center-align text for a cleaner layout */
+  }
+
+  /* Toggler button adjustments */
+  .navbar-toggler {
+    padding: 0.4rem 0.6rem; /* Slightly smaller padding */
+    margin: 5px; /* Add some margin for spacing */
+    height: 30px;
+    width: 30px;
+    justify-content: end;
+  }
+
+  /* Logo adjustments */
+  .logo-round {
+    width: 40px; /* Smaller logo size */
+    height: 40px;
+  }
+
+  /* Navbar brand adjustments */
+  .navbar-brand {
+    font-size: 0.8rem; /* Slightly smaller branding text */
+    padding: 0; /* Remove extra padding */
+  }
+}
+
+
+
+
+
+
+.navbar-toggler {
+  width: 40px; /* Set width for a circular shape */
+  height: 40px; /* Set height for a circular shape */
+  border: 2px solid #ffffff; /* Add a subtle border */
+  border-radius: 50%; /* Make it perfectly round */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:whitesmoke; /* Transparent background */
+  padding: 5px; /* Optional: Adjust padding for better alignment */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar-toggler-icon {
+  width: 20px; /* Adjust icon size */
+  height: 20px;
+  
+}
+
+.navbar-toggler:hover {
+  border-color: #ff5722; /* Highlight border on hover */
+  background-color: #ffefeb; /* Optional: Add a subtle background color on hover */
+  transform: scale(1.1); /* Slight enlarge effect on hover */
+}
+
+
+
+
+@media (min-width:320px) and (max-width: 480px) {
+
+  .navbar-toggler {
+    padding: 0.4rem 0.6rem; /* Slightly smaller padding */
+    margin: 5px; /* Add some margin for spacing */
+    height: 40px;
+    width: 40px;
+    justify-content: end;
+
+  }
+    .navbar-toggler-icon {
+      width: 5px; /* Adjust icon size */
+      height: 5px;
+    
+  }
+  .brand-name{
+    font-size: 1.2rem;
+  }
+
+}
+
+
+
+@media (min-width:210px) and (max-width: 320px){
+  .brand-name{
+    font-size: 0.8rem;
+  }
+
+  navbar-toggler {
+    padding: 0.4rem 0.6rem; /* Slightly smaller padding */
+    margin: 5px; /* Add some margin for spacing */
+    height: 30px;
+    width: 30px;
+    justify-content: end;
+
+    
+    .navbar-toggler-icon {
+      width: 8px; /* Adjust icon size */
+      height: 8px;
+      background-size: 8px 8px; 
+    
+    }
+
+}}

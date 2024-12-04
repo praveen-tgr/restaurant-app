@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/restaurant-app/static/css/main.bff524ca.css",
-    "main.js": "/restaurant-app/static/js/main.6a415dec.js",
+    "main.js": "/restaurant-app/static/js/main.26239e7c.js",
     "static/js/453.ff8cf081.chunk.js": "/restaurant-app/static/js/453.ff8cf081.chunk.js",
     "static/media/chef1.jpg": "/restaurant-app/static/media/chef1.0173282dc36b7361f8b1.jpg",
     "static/media/review2.jpg": "/restaurant-app/static/media/review2.4abb3ea33fa09cc59201.jpg",
@@ -28,11 +28,11 @@
     "static/media/review4.jpg": "/restaurant-app/static/media/review4.93371c0525496b5fc234.jpg",
     "index.html": "/restaurant-app/index.html",
     "main.bff524ca.css.map": "/restaurant-app/static/css/main.bff524ca.css.map",
-    "main.6a415dec.js.map": "/restaurant-app/static/js/main.6a415dec.js.map",
+    "main.26239e7c.js.map": "/restaurant-app/static/js/main.26239e7c.js.map",
     "453.ff8cf081.chunk.js.map": "/restaurant-app/static/js/453.ff8cf081.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bff524ca.css",
-    "static/js/main.6a415dec.js"
+    "static/js/main.26239e7c.js"
   ]
 }
